@@ -6,7 +6,7 @@ import g4 from "../assets/g4.svg";
 import g5 from "../assets/g5.svg";
 import g6 from "../assets/g6.svg";
 import woman from "../assets/woman.svg";
-import Button from "./Button";
+import ButtonBlack from "./ButtonBlack";
 
 type Props = {};
 
@@ -91,7 +91,7 @@ const Contents = (props: Props) => {
             apps. I’m also handy with a camera!
           </h2>
           <div className=" flex mobile:justify-center mobile:pt-[24px] tablet:justify-start tablet:pt-[24px] desktop:justify-start desktop:pt-[32px]">
-            <Button />
+            <ButtonBlack />
           </div>
         </div>
       </div>

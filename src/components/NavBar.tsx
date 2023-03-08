@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import ButtonBlack from "./ButtonBlack";
 
 type Props = {};
 
@@ -11,7 +11,7 @@ const NavBar = (props: Props) => {
           <div className="absolute inset-0 rounded-full border-white mobile:border-[3px] tablet:border-4  desktop:border-4"></div>
         </div>
       </div>
-      <Button />
+      <ButtonBlack />
     </div>
   );
 };

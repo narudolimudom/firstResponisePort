@@ -9,10 +9,9 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="app flex h-screen flex-col items-center mobile:bg-blue-500 tablet:bg-green-500  laptop:bg-gray-500 desktop:bg-lightCream">
+    <div className="app flex h-screen flex-col items-center">
       <NavBar />
       <Contents />
-      {/* <Carousel /> */}
       <Footer />
     </div>
   );

@@ -6,6 +6,7 @@
 
 
 #root,
-body .app {
+body {
   font-family: "Plus Jakarta Sans", sans-serif;
+  @apply bg-lightCream
 }
